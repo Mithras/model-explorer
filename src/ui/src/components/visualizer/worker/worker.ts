@@ -42,7 +42,7 @@ import {IdenticalGroupsFinder} from './identical_groups_finder';
 import {updateProcessingProgress} from './utils';
 
 try {
-  importScripts('/static_files/worker_deps.js');
+  importScripts('static_files/worker_deps.js');
 } catch (e) {
   console.error(`Failed to import libs: ${e}`);
 }
