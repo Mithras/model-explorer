@@ -23,7 +23,7 @@ import {IS_EXTERNAL} from '../../common/flags';
 import {getElectronApi} from '../../common/utils';
 import {Bubble} from '../bubble/bubble';
 
-const CHECK_NEW_VERSION = '/api/v1/check_new_version';
+const CHECK_NEW_VERSION = 'api/v1/check_new_version';
 
 /** Response from check_new_version api. */
 export declare interface CheckNewVersionResponse {

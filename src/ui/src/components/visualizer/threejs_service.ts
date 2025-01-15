@@ -78,7 +78,7 @@ export class ThreejsService {
     //
     // $ msdf-bmfont -f json -m 512,512 -s 50 -r 6 -d 3
     // ./GoogleSansTextRegular.ttf
-    const staticUrlBase = '/static_files';
+    const staticUrlBase = 'static_files';
 
     const results = await Promise.all([
       this.loadFontAtals(`${staticUrlBase}/GoogleSansTextRegular.png`),
