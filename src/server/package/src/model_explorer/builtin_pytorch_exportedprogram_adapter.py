@@ -13,11 +13,13 @@
 # limitations under the License.
 # ==============================================================================
 
+import traceback
 from typing import Dict
 
 try:
   import torch
 except ImportError:
+  traceback.print_exc()
   torch = None
 
 from .adapter import Adapter, AdapterMetadata

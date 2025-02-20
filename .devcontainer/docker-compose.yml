@@ -8,8 +8,9 @@ services:
     environment: []
     volumes:
       - ..:/workspace
-    networks:
-      - model-explorer
-networks:
-  model-explorer:
-    name: model-explorer
+    network_mode: host
+#     networks:
+#       - model-explorer
+# networks:
+#   model-explorer:
+#     name: model-explorer
