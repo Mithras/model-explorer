@@ -40,9 +40,9 @@ import {processErrorMessage} from '../components/visualizer/common/utils';
 import {ExtensionService} from './extension_service';
 import {SettingsService} from './settings_service';
 
-const UPLOAD_API_PATH = '/apipost/v1/upload';
-const LOAD_GRAPHS_JSON_API_PATH = '/api/v1/load_graphs_json';
-const READ_TEXT_FILE_API_PATH = '/api/v1/read_text_file';
+const UPLOAD_API_PATH = 'apipost/v1/upload';
+const LOAD_GRAPHS_JSON_API_PATH = 'api/v1/load_graphs_json';
+const READ_TEXT_FILE_API_PATH = 'api/v1/read_text_file';
 
 declare interface UploadResponse {
   path: string;

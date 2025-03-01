@@ -22,9 +22,9 @@ import {ExtensionCommand} from '../common/extension_command';
 import {Extension} from '../common/types';
 import {INTERNAL_COLAB} from '../common/utils';
 
-const EXTERNAL_GET_EXTENSIONS_API_PATH = '/api/v1/get_extensions';
-const EXTERNAL_SEND_CMD_GET_API_PATH = '/api/v1/send_command';
-const EXTERNAL_SEND_CMD_POST_API_PATH = '/apipost/v1/send_command';
+const EXTERNAL_GET_EXTENSIONS_API_PATH = 'api/v1/get_extensions';
+const EXTERNAL_SEND_CMD_GET_API_PATH = 'api/v1/send_command';
+const EXTERNAL_SEND_CMD_POST_API_PATH = 'apipost/v1/send_command';
 
 /**
  * Service for managing model explorer extensions.

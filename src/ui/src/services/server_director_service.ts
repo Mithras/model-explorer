@@ -46,7 +46,7 @@ export class ServerDirectorService {
     if (IS_EXTERNAL && !INTERNAL_COLAB) {
       // Listen to the streaming events (directives) from the following source
       // that the server has established.
-      const eventSource = new EventSource('/apistream/server_director');
+      const eventSource = new EventSource('apistream/server_director');
       eventSource.addEventListener('message', (e) => {
         if (!e.data) {
           return;

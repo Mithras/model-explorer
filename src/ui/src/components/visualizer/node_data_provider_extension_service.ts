@@ -50,8 +50,8 @@ declare interface ExternalReadFileResp {
   error?: string;
 }
 
-const READ_TEXT_FILE_API_PATH = '/api/v1/read_text_file';
-const LOAD_NODE_DATA_API_PATH = '/api/v1/load_node_data';
+const READ_TEXT_FILE_API_PATH = 'api/v1/read_text_file';
+const LOAD_NODE_DATA_API_PATH = 'api/v1/load_node_data';
 
 /**
  * A service to manage all node data provider extension executions.

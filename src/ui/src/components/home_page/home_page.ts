@@ -137,7 +137,7 @@ export class HomePage implements AfterViewInit {
     readonly threejsService: ThreejsService,
     private readonly urlService: UrlService,
   ) {
-    this.serverDirectorService.init();
+    // this.serverDirectorService.init();
 
     this.loadingExtensions = this.extensionService.loading;
     this.loadedGraphCollections =
