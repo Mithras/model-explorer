@@ -1,0 +1,16 @@
+services:
+  dev:
+    build:
+      context: .
+    stdin_open: true
+    tty: true
+    env_file: .env
+    environment: []
+    volumes:
+      - ..:/workspace
+    network_mode: host
+#     networks:
+#       - model-explorer
+# networks:
+#   model-explorer:
+#     name: model-explorer
